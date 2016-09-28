@@ -1,5 +1,3 @@
-require 'diplomat'
-
 Puppet::Type.type(:key_value_config).provide(:consul) do
   confine feature: :consul
 
