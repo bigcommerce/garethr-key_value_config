@@ -1,3 +1,3 @@
 require 'puppet/util/feature'
 
-Puppet.features.add(:consul, :libs => ["diplomat"])
+Puppet.features.add(:consul, :libs => %{diplomat})
